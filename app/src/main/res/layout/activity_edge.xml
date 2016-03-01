@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="rompacme.edgepop.EdgeActivity">
+
+    <com.slidingmenu.lib.SlidingMenu
+        android:id="@+id/slidingmenulayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        sliding:viewAbove="@layout/YOUR_ABOVE_VIEW"
+        sliding:viewBehind="@layout/YOUR_BEHIND_BEHIND"
+        sliding:touchModeAbove="margin|fullscreen"
+        sliding:behindOffset="@dimen/YOUR_OFFSET"
+        sliding:behindWidth="@dimen/YOUR_WIDTH"
+        sliding:behindScrollScale="@dimen/YOUR_SCALE"
+        sliding:shadowDrawable="@drawable/YOUR_SHADOW"
+        sliding:shadowWidth="@dimen/YOUR_SHADOW_WIDTH"
+        sliding:fadeEnabled="true|false"
+        sliding:fadeDegree="float"
+        sliding:selectorEnabled="true|false"
+        sliding:selectorDrawable="@drawable/YOUR_SELECTOR"/>
+
+</RelativeLayout>
